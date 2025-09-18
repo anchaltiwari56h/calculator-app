@@ -45,7 +45,7 @@ function Button (){
                      
                 <button className="btn"
                 onClick={()=>{
-                     handleClick("%")
+                     handleClick("/100")
                  }}>%  </button> 
 
                   
