@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    background-image: linear-gradient(to right, rgb(239, 126, 104), rgb(102, 34, 230));
+    align-items: center;
+    justify-content: center;
+    font-family: "Bricolage Grotesque", sans-seri;
+}
+.wrapper{
+    background-image: linear-gradient(to bottom, rgb(208, 202, 215), rgb(78, 38, 131) );
+    width: 25rem;
+    padding: 2rem;
+    margin-top: 5rem;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 15px 2px rgb(134, 133, 137);
+}
+.screen{
+    height: 26rem;
+    margin-bottom: 3rem;
+    width: 95%;
+}
+ .display{
+    font-size: 3rem;
+    padding: 15px;
+    text-align: right;
+    margin-bottom: 5px;
+     height: 6rem;
+     overflow-x: auto;
+ }
+.button{
+    display: grid;
+    grid-template-columns: repeat( autofit, minmax(4, 1fr));
+    gap: 10px;
+}
+button{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    padding: 15px;
+    border: 2px solid rgba(61, 61, 66, 0.368);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+   
+
+}
+button:hover{
+    border: 2px solid black;
+    background-color: rgba(244, 244, 236, 0.927);
+}
+.btn{
+    background-image: linear-gradient(to right, rgb(117, 12, 237), rgb(194, 125, 107));
+}
+.btns{
+    background-color: rgb(241, 172, 172);
+}
+.btns:hover{
+    background-color: rgb(241, 172, 172);
+}
+.eql{
+    grid-column: 3/5;
+}
